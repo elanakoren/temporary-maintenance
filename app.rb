@@ -2,5 +2,6 @@ require 'sinatra'
 require 'sinatra/reloader' if development?
 
 get '/**' do
-  'maintaining stuff'
+  @message = ENV['MAINTENANCE_MESSAGE'] || 'Under construction'
+  erb :index
 end

@@ -1,0 +1,19 @@
+{
+  "name": "maintenance-mode",
+  "version": "1.0.0",
+  "description": "This app serves a maintenance mode page for apps while they are deploying, under maintenance, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "dr-frankenstyle": "^0.2.8",
+    "jquery": "^3.1.1"
+  },
+  "dependencies": {
+    "pui-css-all": "^7.2.0"
+  }
+}
