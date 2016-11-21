@@ -1,16 +1,14 @@
 <!doctype html>
 <html>
 <head>
-  <title>...</title>
+  <title>Undergoing Maintenance</title>
   <link rel="stylesheet" href="/components.css">
-  <script src="/node_modules/jquery/dist/jquery.js"></script>
-  <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </head>
 <body>
 <div class="row grid-show">
   <div class="col-md-12 col-md-offset-6">
-    <h1 class="type-brand-5">This app is undergoing maintenance and will be down for a really long time forever.</h1>
-    <p>More info can be found on the #iad-app-status Slack channel. Or send an ask ticket. More info can be found on the #iad-app-status Slack channel. Or send an ask ticket.</p>
+    <h1 class="type-brand-5"><%= @header %></h1>
+    <p><%= @message %></p>
   </div>
 </div>
 </body>
